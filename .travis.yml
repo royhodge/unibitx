@@ -133,7 +133,7 @@ script:
 before_deploy:
 - if [[ "${TRAVIS_TAG}" == "" ]]; then export TRAVIS_TAG=${TRAVIS_COMMIT} ; fi
 - cd src
-- TARGETS="UniBitXd miner uniwallet uni-service uniwallet-beta cryptotest wallet-api"
+- TARGETS="UniBitXd miner uniwallet unibitx-service uniwallet-beta cryptotest wallet-api"
 - ${STRIP} ${TARGETS}
 - rm -rf yt-${TRAVIS_TAG}
 - mkdir yt-${TRAVIS_TAG}
