@@ -80,7 +80,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./UnibBitX --version`
+- `./UniBitX --version`
 
 ##### Generic Linux
 
@@ -202,7 +202,7 @@ Hi UniBitX contributor, thanks for forking and sending back Pull Requests. Exten
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
-// Copyright (c) 2018-2019, The Universal Bit Project
+// Copyright (c) 2019-2020, The Universal Bit Project
 //
 // Please see the included LICENSE file for more information.
 ```
