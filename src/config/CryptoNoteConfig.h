@@ -67,7 +67,7 @@ UniBItXd --print-genesis-tx --genesis-block-reward-address
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "012801ff0001ff87f7a9c6f7fdaa0c02096958955d9e23040db14d096a13950bf7406a107e53da7132a1e9ca82880c0f2101d7200c75c3c64ba3a55615f2a35d2980a626f989a081d7b2755ab70aa40ac7f6";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "012801ff0001ff87f7a9c6f7fdaa0c02f1d6cdd2c5a36be0500c844316e5f79cb986209f1d4d97b9c7ec23538a5fd28021016416ead62442ee044126eacfcc22feea1b30d346e16ffd8ccf77d365a3d2604c";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
